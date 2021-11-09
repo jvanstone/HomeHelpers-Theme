@@ -1,0 +1,48 @@
+.wpmslider-content {
+
+    h3 {
+
+        &:before {
+            content: open-quote;
+        }
+
+        &:after {
+            content: close-quote;
+        }
+
+        margin-top: 0;
+        margin-bottom: 2em;
+        text-align: left;
+
+        font-weight: 800;
+        color: var(--primary-gold);
+
+        
+    }
+
+    p { 
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .testimonial-name {
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+   
+} 
+
+.strong-view.controls-style-buttons2 .wpmslider-start, .strong-view.controls-style-buttons2 .wpmslider-stop, .strong-view.controls-style-buttons2 .wpmslider-next, .strong-view.controls-style-buttons2 .wpmslider-prev {
+    display: inline-block;
+    background: var(--primary-gold)!important;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 27px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
