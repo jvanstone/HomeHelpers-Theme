@@ -7,6 +7,46 @@
 .wp-block-columns, .wp-block-column {
     margin: 0rem 0;
     padding: 0rem 0;
+
+    .left-curve {
+      
+      padding: 2rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      justify-items: flex-end;
+      background-color: #000;
+      color: var(--primary-white);
+      border: 0px solid yellow;
+      border-top-left-radius: 4rem;
+      border-top-right-radius: 0;
+      border-bottom: 0;
+      border-bottom-right-radius: 4rem;
+
+      h2 {
+        padding-bottom: 2px;
+        border-bottom: 2px solid var(--primary-gold);
+      }
+
+      p {
+        text-align: justify;
+      }
+
+
+    }
+
+    .right-curve {
+      padding: 2rem;
+      background-color: #000;
+      color: var(--primary-white);
+      border: 0px solid yellow;
+      border-top-left-radius: 0;
+      border-top-right-radius: 4rem;
+      border-bottom: 4rem;
+      border-bottom-right-radius: 0;
+
+
+    }
 }
 
 .wp-block-cover  { 

@@ -12,10 +12,11 @@
     --primary-red: #EFC2BA;
     --primary-orange: #FFDABA;
     --primary-yellow: #ffc726;
+    --primary-gold: #d4af37;
 
 
     --primary-black: #000;
-    --primary-dark-gray: rgb(33, 52, 56);
+    --primary-dark-gray: #302d2d;
     --primary-gray: rgb(211, 211, 211);
     --primary-white: #ffffff;
     --off-white: rgb(250, 255, 248);
@@ -39,9 +40,9 @@
     --entry-meta-color: inherit;
 
     /* Header Properties */ 
-    --full-header-background: inherit;
-    --top-header-background-color: inherit;
-    --main-header-background-color: inherit;
+    --full-header-background:inherit;
+    --top-header-background-color: var(--primary-black);
+    --main-header-background-color:  var(--primary-gold);
     --bottom-header-background-color:inherit;;
     --transparent-header-background: inherit;
 
@@ -53,11 +54,11 @@
     --cart-fill-color: inherit;
     --cart-border-color: inherit;
     --search-color: inherit;
-    --member-login: inherit;
+    --member-login: var(--priamry-white);
 
     /** MAIN MENU **/
     
-    --main-menu-color: inherit;
+    --main-menu-color: var(--primary-black);
     --main-menu-background-color: inherit;
     --main-menu-sub-menu-background-color: inherit;
 
@@ -84,14 +85,14 @@
  
 
     /** Footer **/
-    --full-footer-background-color: inherit;
+    --full-footer-background-color: var(--primary-black);
     --top-footer-color: inherit;
     --main-footer-color: inherit;
     --main-footer-border-size: 0;
     --main-footer-border-color: inherit;
     --below-footer-color: inherit;
 
-    --primary-footer-font-color: inherit;
+    --primary-footer-font-color: var(--primary-white);
     --footer-font-size: 1rem;
 
     /** Links **/
@@ -100,17 +101,17 @@
     --main-link-hover-decoration: inherit;
 
 
-    --site-title-color: inherit;
-    --site-title-hover: inherit;
+    --site-title-color: var(--primary-black);
+    --site-title-hover: var(--primary-white);
     
     --footer-link-color: inherit;
     --footer-menu-hover-link: inherit;
 
     /** Headings **/
     --heading-font: var(--cursive-font);
-    --page-title-color: inherit;
+    --page-title-color: var(--primary-black);
     
-    --h1-color: var(--primary-yellow) ;
+    --h1-color: var(--primary-gold) ;
     --h1-font-family: var(--cursive-font);
     --h1-font-size: 5rem;
     --h1-font-weight: inherit;
@@ -125,7 +126,7 @@
     --h2-text-transform: inherit;
 
     /** Button **/
-    --primary-button-background-color: inherit;
+    --primary-button-background-color: var(--primary-gold);
     --primary-button-background-hover: inherit;
     --primary-button-text-color: inherit;
     --primary-button-text-transform: inherit;
