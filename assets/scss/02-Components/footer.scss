@@ -11,10 +11,11 @@ footer {
     
     .widget {margin: 0;}
 
-    h2 {
+    h2, h2.widget-title {
         margin: 1rem 0;
         color: var(--primary-white);
         font-size: 1.4rem!important;
+        line-height: 2;
         font-weight: 900;
         text-transform: capitalize;
         border-bottom: 1px solid var(--primary-gold)!important;

@@ -28,9 +28,9 @@
 
 
     /* Font Settings */
-    --primary-font: inherit;
+    --primary-font: 'Open Sans', sans-serif;
     --secondary-font:  inherit;
-    --cursive-font:  inherit;
+    --cursive-font:  'Lobster', serif;
 
 
     /* Body  */
@@ -62,12 +62,12 @@
     --main-menu-background-color: inherit;
     --main-menu-sub-menu-background-color: inherit;
 
-    --main-menu-hover: inherit;
+    --main-menu-hover: var(--primary-white);
     --main-menu-hover-background: inherit;
 
     --main-menu-font: var(--primary-font);
     --main-menu-font-size: inherit;
-    --main-menu-weight: inherit;
+    --main-menu-weight: 400;
     --main-menu-border: inherit;
     --main-menu-text-transform: uppercase;
 
@@ -119,7 +119,7 @@
     --h1-text-transform: inherit;
 
     --h2-color: inherit;
-    --h2-font-family: var(--heading-font);
+    --h2-font-family: var(--primary-font)!important;
     --h2-font-size: inherit;
     --h2-font-weight: inherit;
     --h2-line-height: inherit;

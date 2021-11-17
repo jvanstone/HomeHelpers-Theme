@@ -14,3 +14,12 @@
 .column-padding {
   padding: 2rem;
 }
+
+.padding2em {
+
+  .wp-block-column {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    padding: 2em;
+  }
+}

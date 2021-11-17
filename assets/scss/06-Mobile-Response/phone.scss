@@ -64,5 +64,22 @@
        padding: 1rem;
        border-top: 1px solid var(--primary-white);
    }
+
+
+   .metaslider .caption-wrap { 
+    top: 100%;
+    height: auto; 
+    margin-bottom: 15rem;
+    font-size: calc(var(--h1-font-size) * .5)!important; 
+
+    }
+
+    .padding2em {
+
+        .wp-block-column {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1em;}
+      }
   
  }

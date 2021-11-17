@@ -4,7 +4,21 @@ Import Fonts
 
 *************/
 
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+    font-family: 'Praise';
+    src: url('./assets/fonts/Praise-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-display: swap;
+}
+

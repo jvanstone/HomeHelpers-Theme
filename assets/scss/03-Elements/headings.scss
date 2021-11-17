@@ -7,7 +7,7 @@
 
 h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6, .site-title, .site-title a {
     margin: 2rem 0;
-    font-family: var(--heading-font);
+    //font-family: var(--heading-font);
     font-weight: var(--h1-font-weight);
 }
 
@@ -20,6 +20,23 @@ h1, .entry-content h1 {
     text-transform: var(--h1-text-transform);
     
 }
+
+.site-title { 
+    margin-bottom: 0 ;
+
+    a, a:visited {
+        font-family: var(--h2-font-family);
+        color: var(--site-title-color);
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 1.75rem;
+    }
+
+    a:hover, a:focus {
+        color: var(--site-title-hover);
+    }
+}
+
 
 h2 {
     color: var(--h2-color);
@@ -34,10 +51,11 @@ h2 {
 .entry-content h2 { 
     color: var(--h2-color);
     font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: capitalize;
    
 }
-
-h2.widget-title,  h2.contact-title {
+  h2.contact-title {
     margin: 1rem 0;
     color: var(--h2-color);
     font-size: 1.4rem!important;
@@ -57,9 +75,17 @@ h2.announce {
     font-size: 1rem !important;
 }
 
+h2.cursive {
+    font-family: var(--cursive-font);
+    //font-size: 2.25;
+}
 
 
-
+h3, .entry-content h3 {
+	font-family: var(--primary-font);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 .wp-block-cover  {
 
     .front-header {
