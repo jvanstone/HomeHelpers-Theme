@@ -5,20 +5,22 @@
 **************/
 
 .ast-woocommerce-container {
-    padding: 0px 0;
-    background-color: var(--primary-black);
+    padding: 3rem 0;
+    background-color: var(--primary-white);
 
 
     .woocommerce-breadcrumb { display: none; }
 
     .woocommerce-products-header {
-        padding: 3rem;
-        background: url(assets/img/interior-header.jpg) no-repeat center;
+        margin: -3rem 0 1rem 0;
+        background: url(./assets/img/raw/shop-header.jpeg) no-repeat center ;
+        background-size: cover;
         height: 30rem;  
+        
     
         .woocommerce-products-header__title {
-            margin: 5rem;
-            color: var(--primary-yellow);
+            margin: 1rem;
+            color: var(--primary-black);
             text-align: center;
         }
     }
@@ -157,9 +159,9 @@
         padding: 1em 2em 1em 3.5em;
         margin: 0 0 2em;
         position: relative;
-        background-color: #000!important;
+        background-color: var(--primary-white);
         color: #515151;
-        border-top: 3px solid #a46497;
+        border-top: 3px solid var(--primary-gold);
         list-style: none outside;
         width: auto;
         word-wrap: break-word;
@@ -175,7 +177,7 @@
         height: auto;
         border-width: 1px;
         border-style: solid;
-        border-color: var(--primary-green)!important;
+        border-color: var(--primary-gold)!important;
         border-radius: 2px;
         background: #fafafa;
         box-shadow: none;
